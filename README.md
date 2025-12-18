@@ -50,7 +50,8 @@ Understanding **20% of the codebase deeply** is more valuable than skimming 100%
 
 ## 📂 Repository Structure
 
-```how-to-read-github-repos/
+```
+how-to-read-github-repos/
 ├── README.md
 ├── mindset.md
 ├── navigation.md
@@ -66,7 +67,8 @@ Understanding **20% of the codebase deeply** is more valuable than skimming 100%
 └── real-world-walkthroughs/
 ├── small-api.md
 ├── frontend-app.md
-└── messy-production-code.md```
+└── messy-production-code.md
+```
 
 
 Each section is short, focused, and meant to be read **non-linearly**.
