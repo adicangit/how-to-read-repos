@@ -42,16 +42,7 @@ This is about **thinking**, not tools.
 
 Instead of reading files randomly, you will learn to ask questions **in the right order**:
 
-Purpose
-↓
-Project Type
-↓
-Entry Point
-↓
-One Feature Flow
-↓
-Expand Only If Needed
-
+Purpose → Project Type → Entry Point → One Feature Flow → Expand Only If Needed
 
 Understanding **20% of the codebase deeply** is more valuable than skimming 100%.
 
