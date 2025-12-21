@@ -1,38 +1,40 @@
 # How to Read GitHub Repositories (Without Getting Lost)
 
-> Most developers are taught how to **write** code.  
-> Very few are taught how to **read** other people’s code — which is 70% of real-world development.
+> Most developers are taught how to **write** code.
+> Very few are taught how to **read** other people's code — which is 70% of real-world development.
 
 This repository teaches a **practical, repeatable system** for understanding unfamiliar GitHub repositories **without panic, overwhelm, or reading every file**.
 
-If you’ve ever opened a repo and thought *“where do I even start?”* — this is for you.
+If you've ever opened a repo and thought *"where do I even start?"* — this is for you.
 
 ---
 
-## Who this is for
+## Who This Is For
 
-- Beginners who feel lost opening real-world repositories  
-- Junior developers starting their first job  
-- Self-taught developers transitioning to production code  
+- Beginners who feel lost opening real-world repositories
+- Junior developers starting their first job
+- Self-taught developers transitioning to production code
 - Anyone who wants to **think like a senior engineer**
 
 You do **not** need to be an expert to use this repo.
 
 ---
 
-## What this repo teaches (and what it doesn’t)
+## What This Repo Teaches (And What It Doesn't)
 
-### What you’ll learn
+### What You'll Learn
+
 - How to **approach** an unfamiliar codebase
 - How to identify the **entry point**
 - How to trace **one real feature end-to-end**
 - What files and folders you can **safely ignore**
 - How experienced developers explore repos quickly
 
-### What this repo does NOT do
+### What This Repo Does NOT Do
+
 - Teach syntax of any language
 - Explain frameworks in depth
-- Turn you into a “10x developer” overnight
+- Turn you into a "10x developer" overnight
 
 This is about **thinking**, not tools.
 
@@ -44,13 +46,13 @@ Instead of reading files randomly, you will learn to ask questions **in the righ
 
 ```
 Purpose
-↓
+   ↓
 Project Type
-↓
+   ↓
 Entry Point
-↓
+   ↓
 One Feature Flow
-↓
+   ↓
 Expand Only If Needed
 ```
 
@@ -63,23 +65,24 @@ Understanding **20% of the codebase deeply** is more valuable than skimming 100%
 ```
 how-to-read-github-repos/
 ├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
 ├── mindset.md
 ├── navigation.md
 ├── patterns/
-│ ├── backend.md
-│ ├── frontend.md
-│ ├── libraries.md
-│ └── monorepos.md
+│   ├── backend.md
+│   ├── frontend.md
+│   ├── libraries.md
+│   └── monorepos.md
 ├── exercises/
-│ ├── beginner.md
-│ ├── intermediate.md
-│ └── advanced.md
+│   ├── beginner.md
+│   ├── intermediate.md
+│   └── advanced.md
 └── real-world-walkthroughs/
-├── small-api.md
-├── frontend-app.md
-└── messy-production-code.md
+    ├── small-api.md
+    ├── frontend-app.md
+    └── messy-production-code.md
 ```
-
 
 Each section is short, focused, and meant to be read **non-linearly**.
 
@@ -87,7 +90,8 @@ Each section is short, focused, and meant to be read **non-linearly**.
 
 ## Section Overview
 
-### `mindset.md`
+### [`mindset.md`](mindset.md)
+
 - Why confusion is normal
 - Why you are NOT supposed to understand everything
 - How senior engineers think when reading code
@@ -95,8 +99,10 @@ Each section is short, focused, and meant to be read **non-linearly**.
 
 ---
 
-### `navigation.md`
+### [`navigation.md`](navigation.md)
+
 A step-by-step process for exploring **any** repository:
+
 - Finding the entry point
 - Recognizing architectural intent
 - Following one meaningful flow
@@ -106,68 +112,77 @@ This is the **core algorithm** of the repo.
 
 ---
 
-### `patterns/`
+### [`patterns/`](patterns/)
+
 Learn to recognize common structures instantly:
-- Backend APIs
-- Frontend apps
-- Libraries vs applications
-- Monorepos
+
+- [Backend APIs](patterns/backend.md)
+- [Frontend apps](patterns/frontend.md)
+- [Libraries vs applications](patterns/libraries.md)
+- [Monorepos](patterns/monorepos.md)
 
 Pattern recognition = speed.
 
 ---
 
-### `exercises/`
+### [`exercises/`](exercises/)
+
 Hands-on practice:
+
 - Open a real repo
 - Answer a small set of questions
 - Stop after 30–45 minutes
 - Build confidence, not exhaustion
 
+Levels: [Beginner](exercises/beginner.md) → [Intermediate](exercises/intermediate.md) → [Advanced](exercises/advanced.md)
+
 ---
 
-### `real-world-walkthroughs/`
+### [`real-world-walkthroughs/`](real-world-walkthroughs/)
+
 Annotated walkthroughs of:
-- A clean repo
-- An average repo
-- A messy production repo
 
-Including:
-- What was ignored
-- What mattered
-- What remained unclear (on purpose)
+- [A clean, small API](real-world-walkthroughs/small-api.md)
+- [A frontend application](real-world-walkthroughs/frontend-app.md)
+- [Messy production code](real-world-walkthroughs/messy-production-code.md)
+
+Including what was ignored, what mattered, and what remained unclear (on purpose).
 
 ---
 
-## How to use this repo
+## How To Use This Repo
 
-1. Read `mindset.md` first  
-2. Learn the process in `navigation.md`  
-3. Pick ONE pattern that matches your stack  
-4. Do ONE exercise  
-5. Stop  
+1. Read [`mindset.md`](mindset.md) first
+2. Learn the process in [`navigation.md`](navigation.md)
+3. Pick **ONE** pattern that matches your stack
+4. Do **ONE** exercise
+5. Stop
 
-Repeat later.
-
-**Do not binge-read.**
+Repeat later. **Do not binge-read.**
 
 ---
 
-## Contributions
+## Contributing
 
-Contributions are welcome if they:
+Contributions are welcome! Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) first.
+
+We accept contributions that:
 - Improve clarity
 - Add real-world examples
 - Reduce confusion (not add abstraction)
 
-Open an issue or PR.
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📌 Final Note
+## Final Note
 
-Reading code is a skill.  
-Feeling lost is part of the process.  
+Reading code is a skill.
+Feeling lost is part of the process.
 This repo exists to make that feeling **temporary instead of permanent**.
 
 ---
