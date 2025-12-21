@@ -1,4 +1,4 @@
-# 📘 How to Read GitHub Repositories (Without Getting Lost)
+# How to Read GitHub Repositories (Without Getting Lost)
 
 > Most developers are taught how to **write** code.  
 > Very few are taught how to **read** other people’s code — which is 70% of real-world development.
@@ -9,7 +9,7 @@ If you’ve ever opened a repo and thought *“where do I even start?”* — th
 
 ---
 
-## 🎯 Who this is for
+## Who this is for
 
 - Beginners who feel lost opening real-world repositories  
 - Junior developers starting their first job  
@@ -20,16 +20,16 @@ You do **not** need to be an expert to use this repo.
 
 ---
 
-## 🧠 What this repo teaches (and what it doesn’t)
+## What this repo teaches (and what it doesn’t)
 
-### ✅ What you’ll learn
+### What you’ll learn
 - How to **approach** an unfamiliar codebase
 - How to identify the **entry point**
 - How to trace **one real feature end-to-end**
 - What files and folders you can **safely ignore**
 - How experienced developers explore repos quickly
 
-### ❌ What this repo does NOT do
+### What this repo does NOT do
 - Teach syntax of any language
 - Explain frameworks in depth
 - Turn you into a “10x developer” overnight
@@ -38,7 +38,7 @@ This is about **thinking**, not tools.
 
 ---
 
-## 🧭 The Core Mental Model
+## The Core Mental Model
 
 Instead of reading files randomly, you will learn to ask questions **in the right order**:
 
@@ -58,7 +58,7 @@ Understanding **20% of the codebase deeply** is more valuable than skimming 100%
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 how-to-read-github-repos/
@@ -85,9 +85,9 @@ Each section is short, focused, and meant to be read **non-linearly**.
 
 ---
 
-## 📘 Section Overview
+## Section Overview
 
-### 🧠 `mindset.md`
+### `mindset.md`
 - Why confusion is normal
 - Why you are NOT supposed to understand everything
 - How senior engineers think when reading code
@@ -95,7 +95,7 @@ Each section is short, focused, and meant to be read **non-linearly**.
 
 ---
 
-### 🧭 `navigation.md`
+### `navigation.md`
 A step-by-step process for exploring **any** repository:
 - Finding the entry point
 - Recognizing architectural intent
@@ -106,7 +106,7 @@ This is the **core algorithm** of the repo.
 
 ---
 
-### 🧩 `patterns/`
+### `patterns/`
 Learn to recognize common structures instantly:
 - Backend APIs
 - Frontend apps
@@ -117,7 +117,7 @@ Pattern recognition = speed.
 
 ---
 
-### 🧪 `exercises/`
+### `exercises/`
 Hands-on practice:
 - Open a real repo
 - Answer a small set of questions
@@ -126,7 +126,7 @@ Hands-on practice:
 
 ---
 
-### 🔍 `real-world-walkthroughs/`
+### `real-world-walkthroughs/`
 Annotated walkthroughs of:
 - A clean repo
 - An average repo
@@ -139,18 +139,7 @@ Including:
 
 ---
 
-## 🧑‍💼 Why this skill matters in real jobs
-
-In real companies:
-- You rarely write code from scratch
-- You inherit large, messy codebases
-- Your value is how fast you can **understand and contribute safely**
-
-This repo trains that exact skill.
-
----
-
-## 🚀 How to use this repo
+## How to use this repo
 
 1. Read `mindset.md` first  
 2. Learn the process in `navigation.md`  
@@ -164,7 +153,7 @@ Repeat later.
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Contributions are welcome if they:
 - Improve clarity
